@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <form action="/" method="post">
+        <input type="text" name="title" placeholder="Enter title"><br>
+        <input type="text" name="content" placeholder="Enter your article">
+        <button type="submit" formaction="/add">Submit</button>
+    </form>
+
+    <form action="/history" method="get">
+        <button type="submit">View Notes</button>
+    </form>
+
+{% endblock %}
