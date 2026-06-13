@@ -544,6 +544,7 @@ print(team)
  
 
 リストの末尾追加： 
+append():list.append() takes exactly one argument,so make it one argument -> ○○.append((1, 2)) 
 
 team = ["勇者", "魔法使い"] 
 
